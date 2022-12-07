@@ -1,3 +1,4 @@
+import SearchBar from './SearchBar'
 import './css/Navbar.css';
 import logo from '../nintendont-logo.png'
 
@@ -6,11 +7,12 @@ const Navbar = () => {
         <nav>
             <div id='topNav'>
                 <img
+                    id='logo'
                     src={logo}
                     alt="website logo"
                 />
-                <div id='searchBar'></div>
-                <div id='gap'></div>
+                <SearchBar />
+                <div id='gap'>test</div>
                 <div id='iconLinks'></div>
             </div>
             <div id='bottomNav'>

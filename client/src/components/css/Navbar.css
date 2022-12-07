@@ -3,19 +3,23 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     height: 100px;
+    width: 100%;
     border-bottom: 1px solid black;
 }
 
 #topNav {
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     height: 30px;
+    width: 100%;
     border-bottom: 1px solid  lightgrey;
 }
 
-#topNav img{
+#logo {
     height: 54px;
     width: 105px;
+    padding-right: 15px;
     margin-top: -23px;
     margin-bottom: 0px;
 }
